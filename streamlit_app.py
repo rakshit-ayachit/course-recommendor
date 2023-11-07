@@ -22,7 +22,7 @@ def recommend(course):
     return coursera_data['Course Name'].iloc[course_indices]
 
 st.markdown(
-    "<h1 style='text-align: center; color: blue;'>Coursera Course Recommendation System</h1>",
+    "<h1 style='text-align: center; color: black;'>Coursera Course Recommender</h1>",
     unsafe_allow_html=True,
 )
 st.markdown(
